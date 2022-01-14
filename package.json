@@ -1,0 +1,15 @@
+{
+  "name": "project-bmi",
+  "version": "1.0.0",
+  "description": "bmi calculator app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "safa telli & syrine Missaoui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
