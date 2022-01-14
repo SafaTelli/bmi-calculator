@@ -24,3 +24,7 @@ app.get('/imc/:n', function (req, res) {
 app.listen(8000, function () {
     console.log('Listening to Port 8000');
 });
+
+app.get('/metrics',function(req,res){
+        res.status(200).send({"cpu":"xx%"})
+});
