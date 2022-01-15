@@ -14,7 +14,7 @@ function interpretIMC(nb) {
         return "Overweight";
 
     if (nb >= 30.0)
-        return "obese";
+        return "Obese";
 
 }
 

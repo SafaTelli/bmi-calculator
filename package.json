@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "test"
+    "test": "jest"
   },
   "author": "safa telli & syrine Missaoui",
   "license": "ISC",
