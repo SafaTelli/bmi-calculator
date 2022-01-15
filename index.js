@@ -17,8 +17,8 @@ app.get('/imc/:n', function (req, res) {
     res.status(200).send({ "result": interpret });
 
 });
-app.listen(8000, function () {
-    console.log('Listening to Port 8000');
+app.listen(3000, function () {
+    console.log('Listening to Port 3000');
 });
 
 app.get('/metrics', function (req, res) {
