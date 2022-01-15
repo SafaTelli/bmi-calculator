@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bmi-app-project
+spec:
+  selector:
+    matchLabels:
+      app: bmi-app-project
+  template:
+    metadata:
+      labels:
+        app: bmi-app-project
+    spec:
+      containers:
+      - name: bmi-app-project
+        image: safatelli/bmi-app:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
