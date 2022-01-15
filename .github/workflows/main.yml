@@ -39,7 +39,7 @@ jobs:
         run: docker build -t bmi-aks:'${{github.sha}}' .
     
       - name: docker login
-        run: docker login --username '${{secrets.DOCKER_LOGIN}}' --password '${{secrets.DOCKER_PASSWORD}}'
+        run: docker login --username '${{secrets.DOCKER_LOGIN}}' --password '${{secrets.DOCKER_PWD}}'
       
       - name: tag docker image
         run: docker tag bmi-aks:'${{github.sha}}' '${{secrets.DOCKER_LOGIN}}'/bmi-aks:'${{github.sha}}'
