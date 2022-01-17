@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bmi-app-project
-        image: safatelli/bmi-aks
+        image: safatelli/bmi-aks:latest
         resources:
           limits:
             memory: "128Mi"
