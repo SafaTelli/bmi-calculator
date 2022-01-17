@@ -18,6 +18,8 @@ app.get('/bmi/:n', function (req, res) {
 
 });
 app.listen(3000, function () {
+
+    res.status(200);
     console.log('Listening to Port 3000');
 });
 
