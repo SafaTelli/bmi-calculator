@@ -14,7 +14,7 @@ app.get('/bmi/:n', function (req, res) {
     const input = req.params.n;
     console.log(parseFloat(input));
     const interpret = interpretIMC(parseFloat(input));
-    res.status(200).send({ "interpretation": interpret });
+    res.status(200).send({ "result": interpret });
 
 });
 app.listen(3000, function () {
