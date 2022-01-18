@@ -27,9 +27,9 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
    ```js
    make run
    ```
-Your app should now be running on localhost:3000.
+Your app should now be running on localhost:3000
 
-Enjoy calculating your BMI 
+Enjoy calculating your BMI :
 
   ```js
    localhost:3000/bmi?weight=60&height=1.65
