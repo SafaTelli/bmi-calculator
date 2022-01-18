@@ -18,7 +18,7 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
    ```sh
    cd bmi-calculator
    ```
-3. install & run  `config.js`
+3. install & run
    ```js
    make run
    ```
