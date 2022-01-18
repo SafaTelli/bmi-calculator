@@ -10,18 +10,17 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
 # Project architecture
 # Live URL 
 # How to install
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/SafaTelli/bmi-calculator.git
    ```
-3. Install NPM packages
+2. go to the project folder
    ```sh
-   npm install
+   cd bmi-calculator
    ```
-4. Enter your API in `config.js`
+3. install & run  `config.js`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   make run
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
