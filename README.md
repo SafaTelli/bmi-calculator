@@ -14,7 +14,7 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
 2. GET Interpretation from BMI
   * [Node.js](https://nodejs.org/)
    
-# How to install & run 
+# How to install & run locally
 1. Clone the repo
    ```sh
    git clone https://github.com/SafaTelli/bmi-calculator.git
@@ -26,6 +26,17 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
 3. install & run
    ```js
    make run
+   ```
+Your app should now be running on localhost:3000.
+
+Enjoy calculating your BMI 
+
+  ```js
+   localhost:3000/bmi?weight=60&height=1.65
+   ```
+and interpreting it like  : 
+```js
+  localhost:3000/bmi/40
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
