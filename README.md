@@ -13,6 +13,8 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
   * [http://20.67.201.203:3000/bmi?weight=65&height=1.65](http://20.67.201.203:3000/bmi?weight=65&height=1.65/)
 2. GET Interpretation from BMI
   * [http://20.67.201.203:3000/bmi/35](http://20.67.201.203:3000/bmi/35)
+3. GET metrics
+  * [http://20.67.201.203:3000/metrics](http://20.67.201.203:3000/metrics)
    
 # How to install & run locally
 1. Clone the repo
