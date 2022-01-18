@@ -9,7 +9,12 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
 
 # Project architecture
 # Live URL 
-# How to install
+1. GET BMI 
+  * [Node.js](https://nodejs.org/)
+2. GET Interpretation from BMI
+  * [Node.js](https://nodejs.org/)
+   
+# How to install & run 
 1. Clone the repo
    ```sh
    git clone https://github.com/SafaTelli/bmi-calculator.git
@@ -25,5 +30,7 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-# How to run 
-# How to run test
+# How to run unit test
+    ```sh
+   cd make test
+   ```
