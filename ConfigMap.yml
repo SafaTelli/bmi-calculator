@@ -57,24 +57,24 @@ data:
 
         #fielddrop = ["metric_to_drop"]
 
-        # An array of urls to scrape metrics from.
-        # urls = ["http://20.67.201.203:3000/metrics"]
+        #An array of urls to scrape metrics from.
+        urls = ["http://20.67.201.203:3000/metrics"]
 
         # An array of Kubernetes services to scrape metrics from.
-        kubernetes_services = ["http://bmi-cluster-dns-2c003bdd.hcp.northeurope.azmk8s.io.default:3000/metrics"]
+        #kubernetes_services = ["http://bmi-cluster-dns-2c003bdd.hcp.northeurope.azmk8s.io.default:3000/metrics"]
 
-        # When monitor_kubernetes_pods = true, replicaset will scrape Kubernetes pods for the following prometheus annotations:
-        # - prometheus.io/scrape: Enable scraping for this pod
-        # - prometheus.io/scheme: If the metrics endpoint is secured then you will need to
+        #When monitor_kubernetes_pods = true, replicaset will scrape Kubernetes pods for the following prometheus annotations:
+          - prometheus.io/scrape: "true"
+          - prometheus.io/scheme: "http"
         #     set this to `https` & most likely set the tls config.
         # - prometheus.io/path: If the metrics path is not /metrics, define it with this annotation.
-        # - prometheus.io/port: If port is not 9102 use this annotation
-        monitor_kubernetes_pods = false
+          - prometheus.io/port: "3000"
+        monitor_kubernetes_pods = true
 
         ## Restricts Kubernetes monitoring to namespaces for pods that have annotations set and are scraped using the monitor_kubernetes_pods setting.
         ## This will take effect when monitor_kubernetes_pods is set to true
         ##   ex: monitor_kubernetes_pods_namespaces = ["default1", "default2", "default3"]
-        # monitor_kubernetes_pods_namespaces = ["default1"]
+         monitor_kubernetes_pods_namespaces = ["default"]
 
         ## Label selector to target pods which have the specified label
         ## This will take effect when monitor_kubernetes_pods is set to true
