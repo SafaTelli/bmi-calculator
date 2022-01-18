@@ -31,6 +31,6 @@ It's an educational project to learn how to use CI/CD pipeline, deploy app in AK
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # How to run unit test
-    ```sh
-   cd make test
+   ```js
+   make test
    ```
